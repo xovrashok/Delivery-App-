@@ -5,7 +5,7 @@ This is a comprehensive food delivery application featuring a React-based fronte
 ## 🚀 Public URL
 
 **Frontend:** [(https://delivery-app-ten-roan.vercel.app/)]  
-**Backend API:** [Link to your Render/Railway deployment]
+**Backend API:** [https://delivery-app-bhuj.onrender.com/]
 
 ## ✅ Accomplished Tasks (Level: Advanced)
 
