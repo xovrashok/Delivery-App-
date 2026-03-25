@@ -1,0 +1,14 @@
+# Зависимости
+node_modules/
+dist/
+build/
+
+# Переменные окружения (самое важное!)
+.env
+.env.local
+
+# Логи и системные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
