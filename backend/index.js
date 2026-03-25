@@ -19,7 +19,7 @@ mongoose
   .catch((err) => console.error("MongoDB connection error:", err));
 
 app.get("/", (req, res) => {
-  res.send("Delivery App Server is running! 🚀");
+  res.send("Delivery App Server is running!");
 });
 
 app.listen(PORT, () => {
