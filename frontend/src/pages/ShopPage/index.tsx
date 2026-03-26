@@ -42,7 +42,8 @@ function ShopPage() {
     });
 
   useEffect(() => {
-    fetch("http://localhost:5001/api/products")
+    const API_URL = "https://delivery-app-bhuj.onrender.com/";
+    fetch(`${API_URL}/api/products`)
       .then((res) => res.json())
       .then((data) => setAllProducts(data))
       .catch((err) => console.error("Error:", err));
