@@ -41,8 +41,9 @@ function ShopPage() {
       return a.name.localeCompare(b.name);
     });
 
+  const API_URL = "https://delivery-app-bhuj.onrender.com";
+  
   useEffect(() => {
-    const API_URL = "https://delivery-app-bhuj.onrender.com/";
     fetch(`${API_URL}/api/products`)
       .then((res) => res.json())
       .then((data) => setAllProducts(data))
