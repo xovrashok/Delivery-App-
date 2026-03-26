@@ -59,7 +59,7 @@ function CartPage() {
     };
 
     try {
-      const API_URL = "https://delivery-app-bhuj.onrender.com/";
+      const API_URL = "https://delivery-app-bhuj.onrender.com";
       const response = await fetch(`${API_URL}/api/orders`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
